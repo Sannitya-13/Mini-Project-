@@ -80,7 +80,7 @@ predictions = rf_model.predict(new_data)
 
 
 
-Ensemble Learning: Random Forest combines multiple decision trees to enhance accuracy and generalizability.
+### Ensemble Learning: Random Forest combines multiple decision trees to enhance accuracy and generalizability.
 Reduced Overfitting: By aggregating predictions from multiple trees, it mitigates overfitting compared to individual decision trees.
 Feature Importance: It provides a feature importance score, aiding in understanding significant factors in crop prediction.
 Usage
@@ -89,7 +89,7 @@ Usage
 bash
 Copy code
 pip install pandas scikit-learn
-Contact Details
+### Contact Details
 📬 For inquiries or collaborations, reach out via:
 
 Email: [mssannitya@gmail.com]
