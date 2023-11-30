@@ -72,14 +72,9 @@ rf_predictions = rf_model.predict(X_test)
 rf_accuracy = accuracy_score(y_test, rf_predictions)
 5. Making Predictions
 🔮 Use the best-performing model to make predictions on new data.
-
-python
-Copy code
-# Make predictions...
-
 predictions = rf_model.predict(new_data)
 # Model Selection: Random Forest Classifier
-🚀 The Random Forest Classifier is chosen over the Decision Tree Classifier for its ensemble learning approach, which improves prediction accuracy and handles overfitting.
+## 🚀 The Random Forest Classifier is chosen over the Decision Tree Classifier for its ensemble learning approach, which improves prediction accuracy and handles overfitting.##
 
 Ensemble Learning: Random Forest combines multiple decision trees to enhance accuracy and generalizability.
 Reduced Overfitting: By aggregating predictions from multiple trees, it mitigates overfitting compared to individual decision trees.
@@ -93,9 +88,4 @@ pip install pandas scikit-learn
 Contact Details
 📬 For inquiries or collaborations, reach out via:
 
-Email: [your_email@example.com]
-LinkedIn: [Your LinkedIn profile URL]
-rust
-Copy code
-
-Feel free to adjust or add any specific details as needed for your project's REA
+Email: [mssannitya@gmail.com]
