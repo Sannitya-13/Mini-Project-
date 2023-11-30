@@ -57,8 +57,6 @@ rf_model.fit(X_train, y_train)
 4. Model Evaluation
 📊 Evaluate the trained models using suitable metrics to select the best-performing model.
 
-python
-Copy code
 # Model evaluation...
 
 from sklearn.metrics import accuracy_score
@@ -75,7 +73,7 @@ rf_accuracy = accuracy_score(y_test, rf_predictions)
 predictions = rf_model.predict(new_data)
 # Model Selection: Random Forest Classifier
 ## 🚀 The Random Forest Classifier is chosen over the Decision Tree Classifier for its ensemble learning approach, which improves prediction accuracy and handles overfitting.##
-
+```
 Ensemble Learning: Random Forest combines multiple decision trees to enhance accuracy and generalizability.
 Reduced Overfitting: By aggregating predictions from multiple trees, it mitigates overfitting compared to individual decision trees.
 Feature Importance: It provides a feature importance score, aiding in understanding significant factors in crop prediction.
