@@ -84,10 +84,8 @@ predictions = rf_model.predict(new_data)
 Reduced Overfitting: By aggregating predictions from multiple trees, it mitigates overfitting compared to individual decision trees.
 Feature Importance: It provides a feature importance score, aiding in understanding significant factors in crop prediction.
 Usage
-💻 To run the project, ensure the required libraries are installed:
 
-bash
-Copy code
+💻 To run the project, ensure the required libraries are installed:
 pip install pandas scikit-learn
 ### Contact Details
 📬 For inquiries or collaborations, reach out via:
